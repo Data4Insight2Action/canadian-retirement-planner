@@ -30,3 +30,15 @@ The planner can help you explore retirement scenarios involving:
 This app is intended for educational and scenario-planning purposes only.
 
 It is not financial, investment, legal, or tax advice.
+
+## License
+
+This project is licensed under the **PolyForm Noncommercial License 1.0.0**.
+
+You may use, study, modify, and share the software for noncommercial purposes, subject to the terms of the license.
+
+Commercial use is not permitted without separate permission from the copyright holder.
+
+See the [LICENSE](LICENSE) file for the full terms.
+
+Copyright © 2026 Eric Wu.
