@@ -4,7 +4,7 @@ A free educational tool for exploring Canadian retirement income, taxes, governm
 
 ## Try the App
 
-👉 https://ericwu889.github.io/canadian-retirement-planner/
+👉 https://data4insight2action.github.io/canadian-retirement-planner/
 
 No registration.  
 No account required.  
