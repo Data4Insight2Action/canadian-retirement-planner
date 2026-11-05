@@ -458,7 +458,7 @@
   .cf-row[aria-checked="false"] .list-amt { color:var(--muted); }
   .cf-row[aria-disabled="true"] { opacity:0.6; cursor:not-allowed; }
   .cf-row[aria-disabled="true"]:hover { background:transparent; }
-  .cf-opts { display:flex; flex-direction:column; align-items:flex-start; gap:7px; margin-top:6px; padding:8px 8px 0; border-top:1px solid var(--border); }
+  .cf-opts { display:flex; flex-direction:column; align-items:flex-start; gap:10.5px; margin-top:6px; padding:8px 8px 0; border-top:1px solid var(--border); }   /* Show income by source and Show amounts in: 50% further apart than 7px, the user's choice */
   .cf-opts .spouse-toggle { font-weight:500; white-space:normal; }
   .cf-opts .spouse-toggle.is-off { opacity:0.6; cursor:not-allowed; }
   .cf-opts .spouse-toggle.is-off input { cursor:not-allowed; }
@@ -9877,7 +9877,7 @@
   }
   function wireCashFlowPanel() {
     tickListBuild($('cfPersonTabs'), $('cfRows'), CF_ITEMS, 'cf', cfPanel, renderCashFlowPanel, 'cash');
-    yearLineBuild($('cfYear'), 'cash', AMOUNTS_NOTE);
+    yearLineBuild($('cfYear'), 'cash');   // no amounts note: with it, Combined's longer row wrapped and the panel's height jumped
     crossState.cash.list = function () { renderCashFlowList(cfPanel()); };
     crossState.cash.people = function () { var v = cfPanel().view; return v === 'summary' ? cfPeople() : [v]; };
     $('cfSplitBox').addEventListener('change', function () {
