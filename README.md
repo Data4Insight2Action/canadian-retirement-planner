@@ -4,12 +4,16 @@ A free educational tool for exploring Canadian retirement income, taxes, governm
 
 ## Try the App
 
-👉 https://data4insight2action.github.io/canadian-retirement-planner/
+👉 https://www.data4insight2action.com/canadian-retirement-planner/
 
-No registration.  
+Free, no sign-up, no email.  
 No account required.  
 No personal financial information is uploaded or transmitted.  
 Calculations run locally in your browser.
+
+The app has moved to the address above, where it is kept up to date with each year's tax and benefit rules. The old GitHub Pages address (data4insight2action.github.io/canadian-retirement-planner/) now forwards there.
+
+**Much more to explore at [www.data4insight2action.com](https://www.data4insight2action.com/)**: free, interactive tools that help anyone, at any age, understand investing and make their money work hard and smart. Among them: the CPP, QPP, OAS and GIS Start Age Calculator.
 
 ## What It Covers
 
